@@ -19,6 +19,7 @@ workflows:
       - name: Flynn Hembroff
   - subclass: CWL
     name: nontrivial
+    publish: true
     primaryDescriptorPath: /nontrivial/nontrivial.cwl
     testParameterFiles:
       - /nontrivial/inputs.json
@@ -26,6 +27,7 @@ workflows:
       - name: Flynn Hembroff
   - subclass: CWL
     name: manyJobs
+    publish: true
     primaryDescriptorPath: /manyjobs/manyjobs.cwl
     testParameterFiles:
       - /manyjobs/inputs.json
